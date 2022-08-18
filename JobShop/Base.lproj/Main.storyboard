@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JobShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 11.40.04 AM" translatesAutoresizingMaskIntoConstraints="NO" id="eaH-JN-WaY">
@@ -167,6 +167,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="iAv-nt-UmF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpb-Ua-Ebj">
                                 <rect key="frame" x="74" y="503" width="266" height="77"/>
@@ -313,6 +316,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="EJs-PE-NlC" kind="showDetail" id="u9N-kL-yad"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTz-82-z0T">
                                 <rect key="frame" x="74" y="348" width="266" height="77"/>
@@ -369,6 +375,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Zn5-Eh-nOO" kind="showDetail" id="Z9V-kR-kj9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkG-1K-Bdy">
                                 <rect key="frame" x="74" y="244" width="266" height="77"/>
@@ -508,6 +517,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="iss-gS-0l2" kind="showDetail" id="GsH-lH-LfH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gog-lE-9Tq">
                                 <rect key="frame" x="74" y="270" width="266" height="77"/>
@@ -658,6 +670,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ka1-WG-oqQ" kind="showDetail" id="LJF-0K-1FB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbY-XQ-iOn">
                                 <rect key="frame" x="74" y="225" width="266" height="77"/>
@@ -800,6 +815,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="b9i-fw-9OB" kind="showDetail" id="m6L-to-TXj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdt-VM-yxu">
                                 <rect key="frame" x="74" y="210" width="266" height="77"/>
@@ -946,6 +964,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="IsG-zL-OkH" kind="showDetail" id="jVk-uz-fIC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUb-Nq-dAy">
                                 <rect key="frame" x="74" y="210" width="266" height="77"/>
@@ -1088,6 +1109,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="V0Z-Ag-lWg" kind="showDetail" id="bGw-Lq-OXl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvv-yE-fdF">
                                 <rect key="frame" x="71" y="272" width="266" height="77"/>
@@ -1230,6 +1254,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="0eG-H2-SAd" kind="showDetail" id="J5u-Z8-9iH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ur0-7P-fUS">
                                 <rect key="frame" x="74" y="228" width="266" height="77"/>
@@ -1372,6 +1399,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Ed4-Vo-pIe" kind="showDetail" id="TaD-Bm-Moa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CiN-Ai-R37">
                                 <rect key="frame" x="74" y="181" width="266" height="77"/>
@@ -1459,7 +1489,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xoc-nG-qFr">
-                                <rect key="frame" x="85" y="634" width="244" height="82"/>
+                                <rect key="frame" x="85" y="617" width="244" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
@@ -1485,6 +1515,17 @@
             <point key="canvasLocation" x="7150.7246376811599" y="75.669642857142847"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TaD-Bm-Moa"/>
+        <segue reference="J5u-Z8-9iH"/>
+        <segue reference="bGw-Lq-OXl"/>
+        <segue reference="jVk-uz-fIC"/>
+        <segue reference="m6L-to-TXj"/>
+        <segue reference="LJF-0K-1FB"/>
+        <segue reference="GsH-lH-LfH"/>
+        <segue reference="Z9V-kR-kj9"/>
+        <segue reference="u9N-kL-yad"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-17 at 1.49.27 PM" width="590" height="966"/>
         <image name="Screen Shot 2022-08-17 at 11.40.04 AM" width="344" height="666"/>
