@@ -2162,5 +2162,45 @@ class ViewController: UIViewController {
         
     }
     
+    func getTopFiveCareers ()
+    {
+        
+        var topFiveCareers = [String] ();
+        var topFivePoints = [Int] ();
+        
+        var tempCareerPoints = careerPoints;
+        
+        var maxPoints = 0;
+        var maxCareer = "";
+        
+        for _ in 1...5 {
+            
+            for (career, points) in tempCareerPoints {
+                
+                if points > maxPoints {
+                    maxPoints = points;
+                    maxCareer = career;
+                }
+            }
+            
+            topFiveCareers.append (maxCareer);
+            topFivePoints.append (maxPoints);
+            
+            tempCareerPoints.removeValue(forKey: maxCareer);
+            
+        }
+        
+        
+        
+    }
+    
+    @IBAction func getResults1(_ sender: UIButton) {
+        
+        getTopFiveCareers()
+        
+    }
+    
+    
+    
 }
 

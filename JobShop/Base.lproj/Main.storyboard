@@ -1323,6 +1323,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q10A1Button:" destination="Qe9-bF-QfD" eventType="touchUpInside" id="dYR-BR-2ck"/>
+                                    <action selector="getResults1:" destination="Qe9-bF-QfD" eventType="touchUpInside" id="TKT-WT-P2x"/>
                                     <segue destination="Gql-Qh-Tae" kind="showDetail" id="n3e-5P-dF0"/>
                                 </connections>
                             </button>
@@ -1348,6 +1349,12 @@
                                 <rect key="frame" x="-154" y="-126" width="722" height="1007"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXD-AJ-Ibi">
+                                <rect key="frame" x="57" y="156" width="301" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RC0-OE-ExM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
