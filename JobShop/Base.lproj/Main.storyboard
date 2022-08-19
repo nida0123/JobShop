@@ -80,6 +80,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q1A5:" destination="ssx-2s-jnP" eventType="touchUpInside" id="vN3-eD-vcd"/>
+                                    <segue destination="Zn5-Eh-nOO" kind="showDetail" id="UPj-M4-Xua"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AY8-01-gA4">
@@ -102,6 +103,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q1A1Button:" destination="ssx-2s-jnP" eventType="touchUpInside" id="Lhe-Sk-a0g"/>
+                                    <segue destination="Zn5-Eh-nOO" kind="showDetail" id="lN2-Ry-xtg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWO-UL-LEY">
@@ -122,26 +124,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q1A2Button:" destination="ssx-2s-jnP" eventType="touchUpInside" id="c97-eE-4dr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fp7-gy-wPJ">
-                                <rect key="frame" x="85" y="706" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Zn5-Eh-nOO" kind="show" id="BGu-NM-qX0"/>
+                                    <segue destination="Zn5-Eh-nOO" kind="showDetail" id="ygP-dt-3Nx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6F-0Z-zbc">
@@ -162,6 +145,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q1A3:" destination="ssx-2s-jnP" eventType="touchUpInside" id="HHN-en-yzn"/>
+                                    <segue destination="Zn5-Eh-nOO" kind="showDetail" id="OLe-60-WY6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imO-1a-lbH">
@@ -201,6 +185,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q1A4Button:" destination="ssx-2s-jnP" eventType="touchUpInside" id="yJB-5E-MAN"/>
+                                    <segue destination="Zn5-Eh-nOO" kind="showDetail" id="KMh-Pp-0eh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -244,6 +229,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q2A1:" destination="t2L-tN-zAR" eventType="touchUpInside" id="uaG-pY-FjU"/>
+                                    <segue destination="iss-gS-0l2" kind="showDetail" id="lCa-UI-yAB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYH-pV-FSg">
@@ -265,6 +251,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q2A4Button:" destination="t2L-tN-zAR" eventType="touchUpInside" id="VZR-44-fi3"/>
+                                    <segue destination="iss-gS-0l2" kind="showDetail" id="aDg-9D-cgl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkd-R1-O92">
@@ -286,6 +273,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q2A3Button:" destination="t2L-tN-zAR" eventType="touchUpInside" id="mDX-2Q-rG6"/>
+                                    <segue destination="iss-gS-0l2" kind="showDetail" id="zg1-dU-WlT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74c-Pq-ocn">
@@ -308,26 +296,7 @@
                                 <connections>
                                     <action selector="Q2A5:" destination="t2L-tN-zAR" eventType="touchUpInside" id="SN6-Tj-rcC"/>
                                     <action selector="Q2A5Button:" destination="t2L-tN-zAR" eventType="touchUpInside" id="EeF-Vp-08C"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0a-ew-Dte">
-                                <rect key="frame" x="85" y="718" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="iss-gS-0l2" kind="show" id="czb-Rv-YSY"/>
+                                    <segue destination="iss-gS-0l2" kind="showDetail" id="4qq-ob-49f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbl-9f-mxe">
@@ -368,6 +337,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q2A2:" destination="t2L-tN-zAR" eventType="touchUpInside" id="ZQA-2d-osD"/>
+                                    <segue destination="iss-gS-0l2" kind="showDetail" id="Sng-kN-CpG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -431,6 +401,7 @@
                                 <connections>
                                     <action selector="Q3A1Button:" destination="5HV-E7-Y96" eventType="touchUpInside" id="2lZ-hV-jVR"/>
                                     <action selector="Q3A5Button:" destination="5HV-E7-Y96" eventType="touchUpInside" id="Kxq-PX-71U"/>
+                                    <segue destination="ka1-WG-oqQ" kind="showDetail" id="U9X-Oa-iuN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gON-Zj-7io">
@@ -451,6 +422,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q3A4Button:" destination="5HV-E7-Y96" eventType="touchUpInside" id="udf-ZU-TEi"/>
+                                    <segue destination="ka1-WG-oqQ" kind="showDetail" id="eLF-de-9fA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9u-JW-vzn">
@@ -471,6 +443,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q3A3Button:" destination="5HV-E7-Y96" eventType="touchUpInside" id="urf-I9-oNS"/>
+                                    <segue destination="ka1-WG-oqQ" kind="showDetail" id="Fwo-zZ-kma"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MaD-7e-91m">
@@ -491,26 +464,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q3A1:" destination="5HV-E7-Y96" eventType="touchUpInside" id="p7i-Bn-ugo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yQ-ay-d9P">
-                                <rect key="frame" x="85" y="694" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="ka1-WG-oqQ" kind="showDetail" id="kIw-nu-AJU"/>
+                                    <segue destination="ka1-WG-oqQ" kind="showDetail" id="7sU-Jj-01y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mh-09-h4Y">
@@ -531,6 +485,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q3A2Button:" destination="5HV-E7-Y96" eventType="touchUpInside" id="zqz-BB-1pA"/>
+                                    <segue destination="ka1-WG-oqQ" kind="showDetail" id="sUK-vJ-D8w"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -593,6 +548,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q4A5Button:" destination="hzp-Hg-chL" eventType="touchUpInside" id="wNW-ww-1WY"/>
+                                    <segue destination="b9i-fw-9OB" kind="showDetail" id="uCO-pc-TQM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvM-Kw-MWo">
@@ -613,6 +569,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q4A3Button:" destination="hzp-Hg-chL" eventType="touchUpInside" id="Eqo-UK-gEp"/>
+                                    <segue destination="b9i-fw-9OB" kind="showDetail" id="hcG-xL-xC0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZp-PJ-9vi">
@@ -633,6 +590,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q4A2Button:" destination="hzp-Hg-chL" eventType="touchUpInside" id="crp-j1-UQ2"/>
+                                    <segue destination="b9i-fw-9OB" kind="showDetail" id="mae-IJ-Pts"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWu-w9-Mt0">
@@ -653,26 +611,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q4A1Button:" destination="hzp-Hg-chL" eventType="touchUpInside" id="K8m-8E-uA9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rn9-fv-6y1">
-                                <rect key="frame" x="85" y="709" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="b9i-fw-9OB" kind="showDetail" id="y2P-Ky-uQM"/>
+                                    <segue destination="b9i-fw-9OB" kind="showDetail" id="JbD-wE-bHX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1I-yP-W7R">
@@ -693,6 +632,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q4A4Button:" destination="hzp-Hg-chL" eventType="touchUpInside" id="acB-c9-fh4"/>
+                                    <segue destination="b9i-fw-9OB" kind="showDetail" id="bL1-Tz-xYc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -758,6 +698,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q5A5Button:" destination="EMf-ri-THY" eventType="touchUpInside" id="VmT-Bf-CXe"/>
+                                    <segue destination="IsG-zL-OkH" kind="showDetail" id="yZE-5F-KF9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qX3-wO-P2B">
@@ -778,6 +719,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q5A4Button:" destination="EMf-ri-THY" eventType="touchUpInside" id="Urc-lR-p3a"/>
+                                    <segue destination="IsG-zL-OkH" kind="showDetail" id="6HP-Rk-enR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bh5-RY-hte">
@@ -798,6 +740,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q3A3Button:" destination="EMf-ri-THY" eventType="touchUpInside" id="lzx-cn-59g"/>
+                                    <segue destination="IsG-zL-OkH" kind="showDetail" id="2A0-0T-7O1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mS8-jd-BS9">
@@ -818,26 +761,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q5A1Button:" destination="EMf-ri-THY" eventType="touchUpInside" id="Ybd-Wp-UOv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhk-U1-qMo">
-                                <rect key="frame" x="85" y="664" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="IsG-zL-OkH" kind="showDetail" id="eiH-JM-1ba"/>
+                                    <segue destination="IsG-zL-OkH" kind="showDetail" id="gkQ-L1-Q7C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9B-x3-MIk">
@@ -858,6 +782,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q5A2Button:" destination="EMf-ri-THY" eventType="touchUpInside" id="3d0-wT-2yN"/>
+                                    <segue destination="IsG-zL-OkH" kind="showDetail" id="KDh-e0-aO3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -919,6 +844,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q6A5Button:" destination="iiS-E7-LCL" eventType="touchUpInside" id="7Ur-nE-8rl"/>
+                                    <segue destination="V0Z-Ag-lWg" kind="showDetail" id="yap-hs-HAC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRT-Qv-Xla">
@@ -939,6 +865,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q6A4Button:" destination="iiS-E7-LCL" eventType="touchUpInside" id="oaX-H3-vz1"/>
+                                    <segue destination="V0Z-Ag-lWg" kind="showDetail" id="vaC-Ep-EWU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeO-BZ-K3V">
@@ -959,6 +886,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q6A3Button:" destination="iiS-E7-LCL" eventType="touchUpInside" id="Bxn-JA-zQe"/>
+                                    <segue destination="V0Z-Ag-lWg" kind="showDetail" id="qNu-dF-aHG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1A-Bd-18R">
@@ -979,26 +907,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q6A1Button:" destination="iiS-E7-LCL" eventType="touchUpInside" id="Eyo-sI-IMs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKc-4V-Awj">
-                                <rect key="frame" x="85" y="656" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="V0Z-Ag-lWg" kind="showDetail" id="0HH-bS-Acv"/>
+                                    <segue destination="V0Z-Ag-lWg" kind="showDetail" id="5nq-dz-bvY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emK-2t-2m2">
@@ -1019,6 +928,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q6A2Button:" destination="iiS-E7-LCL" eventType="touchUpInside" id="8Bg-2E-rQX"/>
+                                    <segue destination="V0Z-Ag-lWg" kind="showDetail" id="NVo-eF-wqY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1084,6 +994,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q7A5Button:" destination="OHF-PK-IOo" eventType="touchUpInside" id="79K-b5-uyT"/>
+                                    <segue destination="0eG-H2-SAd" kind="showDetail" id="9Rw-w2-Jxg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-sf-laG">
@@ -1104,6 +1015,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q7A4Button:" destination="OHF-PK-IOo" eventType="touchUpInside" id="pmq-m7-IAc"/>
+                                    <segue destination="0eG-H2-SAd" kind="showDetail" id="Zcq-CU-mtb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcB-Sy-eqO">
@@ -1124,6 +1036,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q7A3Button:" destination="OHF-PK-IOo" eventType="touchUpInside" id="GY8-DO-TiW"/>
+                                    <segue destination="0eG-H2-SAd" kind="showDetail" id="qD1-T0-piO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tas-QK-pEI">
@@ -1144,26 +1057,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q7A1Button:" destination="OHF-PK-IOo" eventType="touchUpInside" id="JEe-MC-SUp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUq-d1-8aH">
-                                <rect key="frame" x="85" y="657" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="0eG-H2-SAd" kind="showDetail" id="WOP-K7-bk3"/>
+                                    <segue destination="0eG-H2-SAd" kind="showDetail" id="FBv-EA-cLt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAa-G8-nU2">
@@ -1184,6 +1078,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q7A2Button:" destination="OHF-PK-IOo" eventType="touchUpInside" id="H1y-dV-itT"/>
+                                    <segue destination="0eG-H2-SAd" kind="showDetail" id="XuP-Xt-8Vz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1245,6 +1140,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q8A1Button:" destination="WRD-qz-8in" eventType="touchUpInside" id="PvJ-Rv-awm"/>
+                                    <segue destination="Ed4-Vo-pIe" kind="showDetail" id="nte-f3-qaK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9t-UH-ZME">
@@ -1265,6 +1161,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q8A2Button:" destination="WRD-qz-8in" eventType="touchUpInside" id="q11-0B-DA9"/>
+                                    <segue destination="Ed4-Vo-pIe" kind="showDetail" id="4B1-La-SD1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewU-cA-tOl">
@@ -1285,6 +1182,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q8A3Button:" destination="WRD-qz-8in" eventType="touchUpInside" id="Zcf-eK-SoQ"/>
+                                    <segue destination="Ed4-Vo-pIe" kind="showDetail" id="H8B-DY-uch"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7x-Jc-UQj">
@@ -1305,6 +1203,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q8A4Button:" destination="WRD-qz-8in" eventType="touchUpInside" id="0nR-1O-U7g"/>
+                                    <segue destination="Ed4-Vo-pIe" kind="showDetail" id="zyA-1X-nMB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLv-wg-8cv">
@@ -1325,26 +1224,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q8A5Button:" destination="WRD-qz-8in" eventType="touchUpInside" id="hmz-mK-9Nf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgb-ub-aAf">
-                                <rect key="frame" x="85" y="709" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Ed4-Vo-pIe" kind="showDetail" id="Sge-Hy-22O"/>
+                                    <segue destination="Ed4-Vo-pIe" kind="showDetail" id="mlk-Sb-VyA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1406,6 +1286,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q9A1Button:" destination="03h-US-HWL" eventType="touchUpInside" id="mHa-0a-yQj"/>
+                                    <segue destination="Wqw-le-TlH" kind="showDetail" id="m29-xp-yYH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTa-8L-c91">
@@ -1426,6 +1307,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q9A2Button:" destination="03h-US-HWL" eventType="touchUpInside" id="gMN-Bq-SVE"/>
+                                    <segue destination="Wqw-le-TlH" kind="showDetail" id="fIz-FY-l98"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eA2-ZS-hV5">
@@ -1446,6 +1328,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q9A3Button:" destination="03h-US-HWL" eventType="touchUpInside" id="5j2-VT-FvR"/>
+                                    <segue destination="Wqw-le-TlH" kind="showDetail" id="tGb-vq-lXk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjt-dp-fUy">
@@ -1466,6 +1349,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q9A4Button:" destination="03h-US-HWL" eventType="touchUpInside" id="dGG-18-g3V"/>
+                                    <segue destination="Wqw-le-TlH" kind="showDetail" id="LlR-Mr-7Kp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFc-F0-5V9">
@@ -1486,27 +1370,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q9A5Button:" destination="03h-US-HWL" eventType="touchUpInside" id="wf7-fR-CTo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIE-Fc-1Zb">
-                                <rect key="frame" x="85" y="669" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next Question">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="Q9A5Button:" destination="03h-US-HWL" eventType="touchUpInside" id="m1e-T5-C2b"/>
-                                    <segue destination="Wqw-le-TlH" kind="showDetail" id="eap-u1-8Ll"/>
+                                    <segue destination="Wqw-le-TlH" kind="showDetail" id="SuJ-jK-LLN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1568,6 +1432,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q10A5Button:" destination="Qe9-bF-QfD" eventType="touchUpInside" id="POl-iO-A9g"/>
+                                    <segue destination="Gql-Qh-Tae" kind="showDetail" id="MZc-iR-uzz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfP-6f-bzq">
@@ -1586,6 +1451,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Gql-Qh-Tae" kind="showDetail" id="Wtf-xw-sIu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEs-mD-xX8">
                                 <rect key="frame" x="74" y="351" width="266" height="77"/>
@@ -1603,6 +1471,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Gql-Qh-Tae" kind="showDetail" id="Ef2-Ag-ZJI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0F-r0-NQI">
                                 <rect key="frame" x="74" y="266" width="266" height="77"/>
@@ -1620,6 +1491,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.1215686351" green="0.18039217590000001" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Gql-Qh-Tae" kind="showDetail" id="5nb-2F-3S1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIU-WW-ga6">
                                 <rect key="frame" x="74" y="181" width="266" height="77"/>
@@ -1639,24 +1513,8 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Q10A1Button:" destination="Qe9-bF-QfD" eventType="touchUpInside" id="dYR-BR-2ck"/>
+                                    <segue destination="Gql-Qh-Tae" kind="showDetail" id="n3e-5P-dF0"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xoc-nG-qFr">
-                                <rect key="frame" x="85" y="650" width="244" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="SUBMIT">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="29" name="Copperplate-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.82745099070000006" green="0.6784313917" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZF8-0a-se4"/>
@@ -1673,18 +1531,26 @@
             <objects>
                 <viewController id="Gql-Qh-Tae" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PVb-sH-1VA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-19 at 5.07.53 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Wvq-4X-Fbu">
+                                <rect key="frame" x="-154" y="-76" width="722" height="1007"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="RC0-OE-ExM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVc-2x-CiS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7839" y="71"/>
+            <point key="canvasLocation" x="7837.6811594202909" y="70.982142857142847"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Wtf-xw-sIu"/>
+        <segue reference="tGb-vq-lXk"/>
         <segue reference="TaD-Bm-Moa"/>
         <segue reference="J5u-Z8-9iH"/>
         <segue reference="bGw-Lq-OXl"/>
@@ -1707,6 +1573,7 @@
         <image name="Screen Shot 2022-08-18 at 6.18.17 PM" width="746" height="942"/>
         <image name="Screen Shot 2022-08-18 at 6.24.17 PM" width="962" height="1020"/>
         <image name="Screen Shot 2022-08-18 at 6.44.41 PM" width="794" height="1062"/>
+        <image name="Screen Shot 2022-08-19 at 5.07.53 PM" width="832" height="1088"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
