@@ -2192,6 +2192,7 @@ class ViewController: UIViewController {
         
         
         
+                
     }
     
     @IBAction func getResults1(_ sender: UIButton) {
@@ -2201,6 +2202,32 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func getResults2(_ sender: UIButton) {
+        
+        getTopFiveCareers()
+        
+    }
+    
+    
+    @IBAction func getResults3(_ sender: UIButton) {
+        
+        getTopFiveCareers()
+        
+    }
+    
+    
+    @IBAction func getResults4(_ sender: UIButton) {
+        
+        getTopFiveCareers()
+        
+    }
+    
+    
+    @IBAction func getResults5(_ sender: UIButton) {
+        
+        getTopFiveCareers()
+        
+    }
     
 }
 

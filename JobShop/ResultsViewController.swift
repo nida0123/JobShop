@@ -1,13 +1,13 @@
 //
-//  QuizQuestionsViewController.swift
+//  ResultsViewController.swift
 //  JobShop
 //
-//  Created by Owner on 8/18/22.
+//  Created by Owner on 8/19/22.
 //
 
 import UIKit
 
-class QuizQuestionsViewController: UIViewController {
+class ResultsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,8 +15,7 @@ class QuizQuestionsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
-    
+
     /*
     // MARK: - Navigation
 
