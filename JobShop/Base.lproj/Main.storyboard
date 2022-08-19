@@ -40,6 +40,10 @@
                                     <segue destination="EJs-PE-NlC" kind="show" id="TBr-c0-Iwv"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shopping cart" translatesAutoresizingMaskIntoConstraints="NO" id="WJQ-PZ-GWN">
+                                <rect key="frame" x="57" y="215" width="300" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -47,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-274" y="71"/>
+            <point key="canvasLocation" x="-275.36231884057975" y="70.982142857142847"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="M6J-lD-zQ7">
@@ -1399,6 +1403,7 @@
         <image name="Screen Shot 2022-08-18 at 6.24.17 PM" width="962" height="1020"/>
         <image name="Screen Shot 2022-08-18 at 6.44.41 PM" width="794" height="1062"/>
         <image name="Screen Shot 2022-08-19 at 5.07.53 PM" width="832" height="1088"/>
+        <image name="shopping cart" width="1280" height="1006"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
