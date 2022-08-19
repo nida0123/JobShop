@@ -9,13 +9,18 @@ import UIKit
 
 class ResultsViewController: UIViewController {
 
+    var text:String = "";
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func resultsText(_ sender: UITextField) {
+    }
+    
     /*
     // MARK: - Navigation
 

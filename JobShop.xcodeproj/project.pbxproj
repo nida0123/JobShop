@@ -17,7 +17,6 @@
 		00E357A628AD3A000091A98E /* JobShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E357A528AD3A000091A98E /* JobShopTests.swift */; };
 		00E357B028AD3A000091A98E /* JobShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E357AF28AD3A000091A98E /* JobShopUITests.swift */; };
 		00E357B228AD3A000091A98E /* JobShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E357B128AD3A000091A98E /* JobShopUITestsLaunchTests.swift */; };
-		EB07400D28AF2D090007D44E /* QuizQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB07400C28AF2D090007D44E /* QuizQuestionsViewController.swift */; };
 		EBFA04A428AFE2BF004E320C /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA04A328AFE2BF004E320C /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		00E357AB28AD3A000091A98E /* JobShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E357AF28AD3A000091A98E /* JobShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobShopUITests.swift; sourceTree = "<group>"; };
 		00E357B128AD3A000091A98E /* JobShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EB07400C28AF2D090007D44E /* QuizQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionsViewController.swift; sourceTree = "<group>"; };
 		EBFA04A328AFE2BF004E320C /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +107,6 @@
 				00E3578D28AD39F70091A98E /* SceneDelegate.swift */,
 				00E3578F28AD39F70091A98E /* ViewController.swift */,
 				EBFA04A328AFE2BF004E320C /* ResultsViewController.swift */,
-				EB07400C28AF2D090007D44E /* QuizQuestionsViewController.swift */,
 				00E3579128AD39F70091A98E /* Main.storyboard */,
 				00E3579728AD39FF0091A98E /* Assets.xcassets */,
 				00E3579928AD39FF0091A98E /* LaunchScreen.storyboard */,
@@ -271,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E3579028AD39F70091A98E /* ViewController.swift in Sources */,
-				EB07400D28AF2D090007D44E /* QuizQuestionsViewController.swift in Sources */,
 				00E3579628AD39F70091A98E /* JobShop.xcdatamodeld in Sources */,
 				00E3578C28AD39F70091A98E /* AppDelegate.swift in Sources */,
 				00E3578E28AD39F70091A98E /* SceneDelegate.swift in Sources */,

@@ -1361,6 +1361,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="numberOneText:" destination="Gql-Qh-Tae" eventType="editingDidEnd" id="yvD-Y1-jRw"/>
+                                    <action selector="resultsText:" destination="Gql-Qh-Tae" eventType="editingDidEnd" id="o8g-7o-pdh"/>
                                 </connections>
                             </textField>
                         </subviews>
